@@ -208,6 +208,7 @@ main {
     justify-content: center;
     gap: 20px; /* Espacement entre les boutons */
     flex-wrap: wrap; /* Pour s'adapter aux petits écrans */
+    margin-left: 3%;
 }
 
 /* Boutons CTA */
@@ -244,23 +245,25 @@ main {
     padding: 50px 20px; /* Espacement autour de la section */
     background-color: #f8ecde; /* Couleur douce */
     margin-top: 50px; /* Espacement par rapport aux sections précédentes */
-    margin-left: 20%;
 }
 
 .services-section h2 {
     font-size: 36px;
     color: #3c3c3b; /* Couleur sombre */
-    margin-bottom: 30px; /* Espacement sous le titre */
+    margin-bottom: 5px; /* Espacement sous le titre */
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    margin-left: 20%;
 }
 
 /* Conteneur des services */
 .services-content {
     display: flex;
     justify-content: center;
-    gap: 40px; /* Espacement entre les services */
+    gap: 20px; /* Espacement entre les services */
     flex-wrap: wrap; /* Adaptation pour les petits écrans */
     padding: 20px 0;
+    margin-left: 22%;
+    margin-bottom: 5%;
 }
 
 /* Style pour chaque service */
@@ -300,5 +303,4 @@ main {
     color: rgba(0, 0, 0, 0.7);
     line-height: 1.6; /* Meilleure lisibilité */
 }
-
 
