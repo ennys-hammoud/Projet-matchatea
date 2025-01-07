@@ -48,20 +48,25 @@ nav ul li a{
     letter-spacing: 4px;
     margin-right: 70px;
 }
-.titre{
-display:flex;
-justify-content: center;
-font-family: 'Dancing Script', cursive;
 
+/* Style pour le titre h1 */
+/* Style pour la section contenant le titre */
+.titre {
+    display: flex;
+    justify-content: center; /* Centre le contenu horizontalement */
+    align-items: flex-start; /* Aligne le contenu en haut de la page */
+    height: 100vh; /* Occupe toute la hauteur de l'écran */
+    text-align: center; /* Centre le texte à l'intérieur de la section */
+    padding-top: 20px; /* Vous pouvez ajuster cet espacement pour décaler légèrement le titre du haut de la page */
+    margin-left: 15%;
 }
 
+/* Style pour le titre h1 */
 .titre h1 {
     font-family: 'Dancing Script', cursive;
-    font-size: 60px; /* Taille du texte */
-    color: rgba(0, 0, 0, 0.7); /* Noir moins foncé avec transparence (70% d'opacité) */
-    text-align: center; /* Centre le texte */
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Ombre légère pour plus de douceur */
-    margin-left: 10%; /* Ajuste le placement du texte si nécessaire */
+    font-size: 100px; /* Ajustez la taille du texte selon vos besoins */
+    color: rgba(0, 0, 0, 0.7); /* Couleur du texte */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Ombre légère pour un effet stylé */
 }
 
 main {
@@ -111,6 +116,8 @@ main {
     background-color: #f8ecde; /* Couleur douce pour la section */
     text-align: center;
     font-family: 'Dancing Script', cursive;
+    margin-left: 20%;
+    margin-top: 7%;
 }
 
 .fidelite-recompenses h2 {
@@ -172,3 +179,4 @@ main {
 .btn-en-savoir-plus:hover {
     background-color: #89b780; /* Vert plus foncé au survol */
 }
+
