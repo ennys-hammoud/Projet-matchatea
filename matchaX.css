@@ -41,7 +41,7 @@ nav ul li a{
     padding: 30px 0px 30px 50px;
     gap: 50px;
     margin-left: 250px;
-    background-color: #CEE08F;
+    background-color: #f8ecde;
 }
 .phrase{
     color: #000000;
@@ -62,7 +62,7 @@ nav ul li a{
 }
 #civilité0{
     border: solid 3px #ffffff;
-    background-color: #f6d5e1;
+    background-color: #f8ecde;
     padding: 5px;
     text-align: center;
     font-size: 14px;
@@ -76,14 +76,14 @@ nav ul li a{
 }
 input{
     border: solid 1px #ffffff;
-    width: 200px;
+    width: 230px;
 }
 #message{
     border: solid 1px #ffffff;
 }
 .send{
     border: solid 3px #ffffff;
-    background-color: #f6d5e1;
+    background-color: #f8ecde;
     padding: 5px 50px 5px 50px;
 }
 
@@ -96,6 +96,7 @@ input{
 .basdepage2{
     display: flex;
     gap: 90px;
+    margin-left: 10px;
     padding: 40px 0px 40px 0px;
 }
 .gauche{
@@ -123,7 +124,6 @@ input{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 .carré{
     border: solid #CEE08F;
@@ -161,6 +161,10 @@ h6{
 .regarder{
     text-decoration: none;
     color: black;
+}
+.coordonnées{
+    font-size: 15px;
+    font-family: "Onest", serif;
 }
 .coordonnées2{
     font-size: small;
