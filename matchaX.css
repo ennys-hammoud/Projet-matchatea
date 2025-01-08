@@ -65,8 +65,8 @@
 .phrase{
     color: #000000;
     padding-top: 100px;
-    font-size: 14px;
-    font-family: "Onest", serif;
+    font-size: 12px;
+    font-family: "Funnel Sans", serif;
 }
 .barre{
     border: solid #ffffff;
@@ -84,14 +84,14 @@
     background-color: #f8ecde;
     padding: 5px;
     text-align: center;
-    font-size: 14px;
-    font-family: "Onest", serif;
+    font-size: 13px;
+    font-family: "Funnel Sans", serif;
 }
 .mail{
     display: flex;
     justify-content: center;
-    font-size: 14px;
-    font-family: "Onest", serif;
+    font-size: 13px;
+    font-family: "Funnel Sans", serif;
 }
 input{
     border: solid 1px #ffffff;
@@ -104,6 +104,8 @@ input{
     border: solid 3px #ffffff;
     background-color: #f8ecde;
     padding: 5px 50px 5px 50px;
+    font-family: "Funnel Sans", serif;
+    font-size: 13px;
 }
 
 /*footer*/
