@@ -6,7 +6,7 @@
 }
 
 header {
-    background-image: url("image1.jpeg");
+    background-image: url("image\ pricipale.png");
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -55,7 +55,7 @@ header {
     background-color:rgba(255, 255, 255, 0.996);
     padding: 30px;
     color: rgb(6, 129, 14);
-   
+
 }
 
 
@@ -322,6 +322,7 @@ main {
     align-items:end;
     font-size: 14px;
     font-family: "Onest", serif;
+    
 }
 .navigation{
     text-align:right;
@@ -343,6 +344,7 @@ main {
     padding: 58px 140px 55px 140px;
     display: flex;
     flex-direction: column;
+    
 }
 .titre{
     text-align: center;
