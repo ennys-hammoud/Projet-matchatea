@@ -131,13 +131,13 @@ input{
 }
 .navigation{
     text-align:right;
+    font-family: "Funnel Sans", serif;
     font-size: 15px;
-    font-family: "Onest", serif;
 }
 .li2{
     list-style-type: none;
-    font-size: 13px;
-    font-family: "Onest", serif;
+    font-family: "Funnel Sans", serif;
+    font-size: 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -161,7 +161,7 @@ input{
 .titre{
     text-align: center;
     font-size: 20px;
-    font-family: "Onest", serif;
+    font-family: "Funnel Sans", serif;
 }
 .petitcarré{
     border: solid rgb(255, 255, 255);
@@ -170,7 +170,7 @@ input{
 }
 .phrase2{
     font-size: 14px;
-    font-family: "Onest", serif;
+    font-family: "Funnel Sans", serif;
 }
 h6{
     font-size: small;
@@ -181,12 +181,11 @@ h6{
 }
 .coordonnées{
     font-size: 15px;
-    font-family: "Onest", serif;
+    font-family: "Funnel Sans", serif;
 }
 .coordonnées2{
-    font-size: small;
-    font-size: 13px;
-    font-family: "Onest", serif;
+    font-family: "Funnel Sans", serif;
+    font-size: 12px;
 }
 
 /*PAGE A PROPOS*/
@@ -202,9 +201,9 @@ h6{
     font-size: 20px;
 }
 .présentation{
-    font-family: "Onest", serif;
-    font-size: 15px;
     margin-top: 12px;
+    font-size: 13px;
+    font-family: "Funnel Sans", serif;
 }
 .description2{
     margin-top: 50px;
@@ -222,9 +221,12 @@ h6{
 }
 .emilie2{
     margin-top: 10px;
+    font-family: "Funnel Sans", serif;
+    font-size: 15px;
 }
 .emilie3{
-    font-size: 13px;
+    font-size: 12px;
+    font-family: "Funnel Sans", serif;
 }
 .imageemilie1{
     display: flex;
@@ -246,9 +248,12 @@ h6{
 }
 .raoul2{
     margin-top: 10px;
+    font-family: "Funnel Sans", serif;
+    font-size: 15px;
 }
 .raoul3{
-    font-size: 13px;
+    font-family: "Funnel Sans", serif;
+    font-size: 12px;
 }
 .imageraoul1{
     display: flex;
@@ -269,9 +274,12 @@ h6{
 }
 .ennys2{
     margin-top: 10px;
+    font-family: "Funnel Sans", serif;
+    font-size: 15px;
 }
 .ennys3{
-    font-size: 13px;
+    font-family: "Funnel Sans", serif;
+    font-size: 12px;
 }
 .imageennys1{
     display: flex;
