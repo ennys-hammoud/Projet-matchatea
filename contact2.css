@@ -14,7 +14,7 @@
     border: 2px solid rgba(255, 255, 255, 0.2); /* Bordure subtile */
     box-shadow: 0 4px 15px rgba(18, 213, 21, 0.5);
     margin-left: 20%;
-   
+    
 }
 .lo{
     margin-top:-30px;
@@ -36,14 +36,14 @@
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     flex-direction: row;
-   
+    
 }
 .nav-links{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
     margin-left: 70px 0;
-   
+    
     li {
         padding-right: 20px;
         padding-top: 50px;
@@ -51,9 +51,7 @@
         text-decoration: none;
     }
 
-
 }
-
 
 /*page*/
 .pageprincipal{
@@ -109,11 +107,10 @@ input{
     padding: 5px 50px 5px 50px;
 }
 
-
 /*footer*/
 .basdepage{
     display: flex;
-   
+    
 }
 .basdepage2{
     display: flex;
@@ -126,7 +123,7 @@ input{
     flex-direction: column;
     align-items: center;
 }
-.nav-links2{
+.nav-links2{ 
     display: flex;
     flex-direction: column;
     align-items:end;
@@ -136,7 +133,7 @@ input{
 .navigation{
     text-align:right;
     font-size: 15px;
-   
+    
     font-family: "Onest", serif;
 }
 .li2{
