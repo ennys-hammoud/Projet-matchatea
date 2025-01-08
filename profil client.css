@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+
+header {
+    background-color: white;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    height: 20vh;
+}
+
+.lo{
+    margin-top:-30px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%; /* La navbar occupe toute la hauteur */
+    width: 100px; /* Largeur de la navbar */
+    position: fixed; /* La navbar reste fixée sur le côté gauche */
+    top: 0;
+    left: 0;
+    padding-top: 20px; /* Espacement en haut */
+    background-color: #CEE08F;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2); /* Ombre pour un effet stylé */
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    flex-direction: row;
+    
+}
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-left: 70px 0;
+    
+    li {
+        padding-right: 20px;
+        padding-top: 50px;
+        list-style: none;
+        text-decoration: none;
+    }
+
+}
+
+.tete {
+    display: flex;
+    flex-direction:inherit;
+    justify-content: center;
+    background-color:rgba(255, 255, 255, 0.996);
+    padding: 30px;
+    color: rgb(6, 129, 14);
+
+}
+
+
+main {
+    padding: 50px 20px;
+    background-color: white; /* Couleur douce pour contraster avec le header */
+    height: 150vh;
+}
+
+/* Style pour le contenu principal */
+main {
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #F8F8F8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    color: #4CAF50;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: "Onest", serif;
+    text-align: center;
+}
+
+main p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+main ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+main ul li {
+    font-size: 16px;
+    line-height: 1.8;
+    list-style-type: disc;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.services {
+    margin-bottom: 40px; /* Espace de 40px sous la section services */
+}
+
+.engagement {
+    margin-top: 40px; /* Espace de 40px au-dessus de la section engagement */
+}
+
+/* Style pour la section des valeurs */
+.valeurs {
+    margin-bottom: 40px; /* Espacement avec les autres sections */
+}
+
+.valeurs h2 {
+    font-size: 24px;
+    color: #4CAF50; /* Couleur verte pour le titre */
+    margin-bottom: 15px;
+    font-family: "Onest", serif; /* Police comme les autres titres */
+    text-align: center; /* Centrer le titre */
+}
+
+.valeurs p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+
+/*footer*/
+.basdepage{
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+}
+.basdepage2{
+    display: flex;
+    gap: 90px;
+    margin-right:  20vh;
+    padding: 40px 0px 40px 0px;
+}
+.gauche{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-links2{ 
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+    font-size: 14px;
+    font-family: "Onest", serif;
+    
+}
+.navigation{
+    text-align:right;
+    font-size: 15px;
+    margin-left: 10%;
+    font-family: "Onest", serif;
+}
+.li2{
+    list-style-type: none;
+    font-size: 13px;
+    font-family: "Onest", serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.carré{
+    border: solid #CEE08F;
+    background-color: #CEE08F;;
+    padding: 58px 140px 55px 140px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.titre{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Onest", serif;
+}
+.petitcarré{
+    border: solid rgb(255, 255, 255);
+    margin-top: 25px;
+    padding: 5px 60px 5px 60px;
+}
+.phrase2{
+    font-size: 14px;
+    font-family: "Onest", serif;
+}
+.regarder{
+    text-decoration: none;
+    color: black;
+}
+.droite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.coordonnées{
+    font-size: 15px;
+    font-family: "Onest", serif;
+}
+.coordonnées2{
+    font-size: small;
+    font-size: 13px;
+    font-family: "Onest", serif;
+}
