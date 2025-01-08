@@ -1,3 +1,4 @@
+/*PAGE CONTACT*/
 *{
     padding: 0;
     margin: 0;
@@ -36,7 +37,6 @@
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     flex-direction: row;
-   
 }
 .nav-links{
     display: flex;
@@ -50,10 +50,7 @@
         list-style: none;
         text-decoration: none;
     }
-
-
 }
-
 
 /*page*/
 .pageprincipal{
@@ -109,16 +106,15 @@ input{
     padding: 5px 50px 5px 50px;
 }
 
-
 /*footer*/
 .basdepage{
     display: flex;
-   
 }
 .basdepage2{
     display: flex;
     gap: 90px;
-   margin-left: 30%;
+    margin-left: 30%;
+    margin-top: 50px;
     padding: 40px 0px 40px 0px;
 }
 .gauche{
@@ -136,7 +132,6 @@ input{
 .navigation{
     text-align:right;
     font-size: 15px;
-   
     font-family: "Onest", serif;
 }
 .li2{
@@ -192,4 +187,99 @@ h6{
     font-size: small;
     font-size: 13px;
     font-family: "Onest", serif;
+}
+
+/*PAGE A PROPOS*/
+.description{
+    margin-top: 80px;
+    margin-left: 400px;
+    margin-right: 120px;
+    padding: 20px 10px 20px 20px;
+    background-color: #f8ecde;
+}
+.titreee{
+    font-family: "Onest", serif;
+    font-size: 20px;
+}
+.présentation{
+    font-family: "Onest", serif;
+    font-size: 15px;
+    margin-top: 12px;
+}
+.description2{
+    margin-top: 50px;
+    margin-left: 380px;
+    margin-right: 110px;
+    padding: 20px 10px 20px 20px;
+}
+.emilie{
+    border: solid 5px #CEE08F;;
+    padding: 20px 10px 20px 20px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.emilie2{
+    margin-top: 10px;
+}
+.emilie3{
+    font-size: 13px;
+}
+.imageemilie1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imageemilie2{
+    width: 140px;
+    height: 180px;
+    border-radius: 70px
+}
+.raoul{
+    border: solid 5px #CEE08F;;
+    padding: 20px 10px 20px 20px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.raoul2{
+    margin-top: 10px;
+}
+.raoul3{
+    font-size: 13px;
+}
+.imageraoul1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imageraoul2{
+    width: 140px;
+    height: 180px;
+    border-radius: 70px;
+}
+.ennys{
+    border: solid 5px #CEE08F;;
+    padding: 20px 10px 20px 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.ennys2{
+    margin-top: 10px;
+}
+.ennys3{
+    font-size: 13px;
+}
+.imageennys1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imageennys2{
+    width: 140px;
+    height: 180px;
+    border-radius: 70px
 }
