@@ -378,3 +378,203 @@ main {
     font-size: 13px;
     font-family: "Onest", serif;
 }
+
+/* Footer */
+.basdepage {
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+}
+
+.basdepage2 {
+    display: flex;
+    gap: 90px;
+    margin-left: 10px;
+    padding: 40px 0px 40px 0px;
+}
+
+.gauche {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-links2 {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    font-size: 14px;
+    font-family: "Onest", serif;
+}
+
+.navigation {
+    text-align: right;
+    font-size: 15px;
+    margin-left: 10%;
+    font-family: "Onest", serif;
+}
+
+.li2 {
+    list-style-type: none;
+    font-size: 13px;
+    font-family: "Onest", serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carré {
+    border: solid #CEE08F;
+    background-color: #CEE08F;
+    padding: 58px 140px 55px 140px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titre {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Onest", serif;
+}
+
+.petitcarré {
+    border: solid rgb(255, 255, 255);
+    margin-top: 25px;
+    padding: 5px 60px 5px 60px;
+}
+
+.phrase2 {
+    font-size: 14px;
+    font-family: "Onest", serif;
+}
+
+.regarder {
+    text-decoration: none;
+    color: black;
+}
+
+.droite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coordonnées {
+    font-size: 15px;
+    font-family: "Onest", serif;
+}
+
+.coordonnées2 {
+    font-size: small;
+    font-size: 13px;
+    font-family: "Onest", serif;
+}
+
+/* Responsivité pour les petits écrans */
+@media (max-width: 768px) {
+    /* Réduit la largeur du footer et réorganise les éléments */
+    .basdepage {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .basdepage2 {
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px 0;
+    }
+
+    .gauche, .milieu, .droite {
+        flex: 1 1 100%; /* Chaque section prend 100% de la largeur */
+        text-align: center;
+    }
+
+    .nav-links2 {
+        align-items: center; /* Centrer la navigation */
+        font-size: 12px; /* Réduire la taille de la police */
+    }
+
+    .navigation {
+        text-align: center;
+        margin-left: 0;
+        font-size: 14px;
+    }
+
+    .li2 {
+        font-size: 12px; /* Réduire la taille de la police */
+    }
+
+    .carré {
+        padding: 40px; /* Réduire l'espace dans le carré */
+        width: 80%; /* Réduire la largeur pour les petits écrans */
+    }
+
+    .titre {
+        font-size: 18px; /* Réduire la taille du titre */
+    }
+
+    .petitcarré {
+        padding: 5px 30px; /* Réduire les paddings pour les petits écrans */
+    }
+
+    .phrase2 {
+        font-size: 12px; /* Réduire la taille de la police */
+    }
+
+    .coordonnées {
+        font-size: 14px; /* Réduire la taille de la police */
+    }
+
+    .coordonnées2 {
+        font-size: 12px; /* Réduire la taille de la police */
+    }
+}
+
+/* Responsivité pour les très petits écrans (mobiles) */
+@media (max-width: 480px) {
+    .basdepage {
+        margin-left: 0;
+    }
+
+    .basdepage2 {
+        gap: 20px;
+        padding: 10px 0;
+    }
+
+    .nav-links2 {
+        font-size: 10px;
+    }
+
+    .navigation {
+        font-size: 12px;
+    }
+
+    .li2 {
+        font-size: 10px;
+    }
+
+    .carré {
+        padding: 30px;
+        width: 90%; /* Ajuster la taille */
+    }
+
+    .titre {
+        font-size: 16px;
+    }
+
+    .petitcarré {
+        padding: 5px 20px;
+    }
+
+    .phrase2 {
+        font-size: 10px;
+    }
+
+    .coordonnées {
+        font-size: 12px;
+    }
+
+    .coordonnées2 {
+        font-size: 10px;
+    }
+}
