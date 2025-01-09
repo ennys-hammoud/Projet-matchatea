@@ -87,7 +87,7 @@ main {
     justify-content: center;
     gap: 20px; /* Espacement entre les images */
     flex-wrap: wrap; /* Permet d'adapter les images sur plusieurs lignes sur petits écrans */
-    margin-left: 18%;
+    margin-left: 50px;
 }
 
 /* Style pour chaque conteneur d'image */
@@ -123,7 +123,7 @@ main {
     background-color: #f8ecde; /* Couleur douce pour la section */
     text-align: center;
     font-family: 'Dancing Script', cursive;
-    margin-left: 20%;
+    margin-left: 25px;
     margin-top: 7%;
 }
 
@@ -193,7 +193,7 @@ main {
     padding: 50px 20px; /* Espacement autour de la section */
     background-color: #f8ecde; /* Couleur de fond douce */
     margin-top: 50px; /* Espacement au-dessus */
-    margin-left: 20%;
+    margin-left: 25px;
 }
 
 .cta-section h2 {
@@ -252,6 +252,7 @@ main {
     padding: 50px 20px; /* Espacement autour de la section */
     background-color: #f8ecde; /* Couleur douce */
     margin-top: 50px; /* Espacement par rapport aux sections précédentes */
+    margin-right: 15%;
 }
 
 .services-section h2 {
@@ -317,7 +318,7 @@ main {
     display: flex;
     justify-content: center;
     margin-left: 250px;
-    
+    margin-right: 200px;
 }
 .basdepage2{
     display: flex;
