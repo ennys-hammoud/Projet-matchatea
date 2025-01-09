@@ -71,7 +71,7 @@ html, body {
     font-size: 5rem; /* Agrandir le texte */
     font-family: "Onest", serif; /* Ajouter une police élégante */
     font-weight: bold; /* Rendre le texte plus visible */
-   margin-top: 2%;
+    margin-top: 6%;
 }
 
 
@@ -317,6 +317,7 @@ main {
     display: flex;
     justify-content: center;
     margin-left: 250px;
+    
 }
 .basdepage2{
     display: flex;
@@ -391,3 +392,4 @@ main {
     font-size: 13px;
     font-family: "Onest", serif;
 }
+
