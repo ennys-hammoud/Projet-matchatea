@@ -46,8 +46,7 @@
     margin-left: 70px 0;
    
     li {
-        padding-right: 20px;
-        padding-top: 50px;
+        padding: 50px 20px 0px 0px;
         list-style: none;
         text-decoration: none;
     }
@@ -58,10 +57,8 @@
     display: flex;
     padding: 30px 0px 30px 50px;
     gap: 60px;
-    margin-left: 30%;
-    margin-right: 10%;
-    background-color: #f8ecde;
-    margin-top: 5%;
+    margin: 5% 10% 0% 30%;
+    background-color: #f8ecde;  
 }
 .phrase{
     color: #000000;
@@ -116,8 +113,7 @@ input{
 .basdepage2{
     display: flex;
     gap: 90px;
-    margin-left: 30%;
-    margin-top: 50px;
+    margin: 50px 0px 0px 30%;
     padding: 40px 0px 40px 0px;
 }
 .gauche{
@@ -189,43 +185,106 @@ h6{
     font-size: 12px;
 }
 /*MEDIA QUERIES PAGE CONTACT*/
-@media (min-width: 410px) and (max-width: 1000px){
-    .tete{
-        padding: 0px;
-        margin-left: 25%;
-        margin-right: 0%;
+@media (min-width: 400px) and (max-width: 1000px){
+    .tete {
+        padding: 0px !important;
+        margin-left: 25% !important;
+        margin-right: 0% !important;
     }
     .navbar{
-        height: 100% !important;  
-        width: 60px !important; 
+        height: 100% !important;
+        width: 60px !important;
         position: fixed !important;
     }
-    .description{
-        margin-top: 60px !important;
-        margin-left: 150px !important;
-        margin-right: 30px !important;
+    .nav-links{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        margin-left: 70px 0;
+    
+        li {
+            padding-right: 20px;
+            padding-top: 50px;
+            list-style: none;
+            text-decoration: none;
+        }
     }
-    .description2{
-        margin-top: 40px !important;
-        margin-left: 130px !important;
-        margin-right: 20px !important;
-    }
-    .emilie{
+    .pageprincipal{
+        margin: 10% 9% 0% 35% ;
+        display: flex;
         flex-direction: column;
-        margin-bottom: 30px;
+        gap: 20px;
     }
-    .raoul{
-        flex-direction: column-reverse;
-        margin-bottom: 30px;
+    .phrase{
+        padding-top: 10px;
     }
-    .ennys{
+    .barre{
+        display: contents;
+    }
+    .contact{
+        display: flex;
         flex-direction: column;
-        margin-bottom: 30px;
+        padding-right: 50px;
+    }
+    .input{
+        padding-right: 50px !important;
+        width: auto;
+        height: 25px;
+    }
+    .send{
+        padding-right: 50px !important;
+        width: auto;
     }
 }
 
+/*MEDIA QUERIES PAGE CONTACT*/
+@media (min-width: 600px) and (max-width: 700px){
+    .tete {
+        padding: 0px !important;
+        margin-left: 22% !important;
+        margin-right: 0% !important;
+    }
+    .phrase{
+        display: flex;
+        justify-content: center;
+    }
+}
 
+@media (min-width: 700px) and (max-width: 800px){
+    .tete {
+        padding: 0px !important;
+        margin-left: 20% !important;
+        margin-right: 0% !important;
+    }
+    .phrase{
+        display: flex;
+        justify-content: center;
+    }
+}
 
+@media (min-width: 800px) and (max-width: 900px){
+    .tete {
+        padding: 0px !important;
+        margin-left: 18% !important;
+        margin-right: 0% !important;
+    }
+    .phrase{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1000px){
+    .tete {
+        padding: 0px !important;
+        margin-left: 16% !important;
+        margin-right: 0% !important;
+    }
+    .phrase{
+        display: flex;
+        justify-content: center;
+    }
+}
 
 /*PAGE A PROPOS*/
 .description{
@@ -329,4 +388,148 @@ h6{
     width: 140px;
     height: 180px;
     border-radius: 70px
+}
+
+/*MEDIA QUERIES PAGE A PROPOS*/
+@media (min-width: 400px) and (max-width: 600px){
+    .tete{
+        padding: 0px;
+        margin-left: 25%;
+        margin-right: 0%;
+    }
+    .navbar{
+        height: 100% !important;  
+        width: 60px !important; 
+        position: fixed !important;
+    }
+    .description{
+        margin-top: 60px !important;
+        margin-left: 150px !important;
+        margin-right: 30px !important;
+    }
+    .description2{
+        margin-top: 40px !important;
+        margin-left: 130px !important;
+        margin-right: 20px !important;
+    }
+    .emilie{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .raoul{
+        flex-direction: column-reverse;
+        margin-bottom: 30px;
+    }
+    .ennys{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .basdepage2{
+        margin-top: 10px !important;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px){
+    .tete{
+        margin-left: 22%;
+    }
+    .navbar{
+        height: 100% !important;  
+        width: 60px !important; 
+        position: fixed !important;
+    }
+    .description{
+        margin-left: 180px !important;
+        margin-right: 30px !important;
+    }
+    .description2{
+        margin-top: 40px !important;
+        margin-left: 160px !important;
+        margin-right: 20px !important;
+    }
+    .emilie{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .raoul{
+        flex-direction: column-reverse;
+        margin-bottom: 30px;
+    }
+    .ennys{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .basdepage2{
+        margin-top: 10px !important;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 800px){
+    .tete{
+        margin-left: 20%;
+    }
+    .navbar{
+        height: 100% !important;  
+        width: 60px !important; 
+        position: fixed !important;
+    }
+    .description{
+        margin-left: 195px !important;
+        margin-right: 35px !important;
+    }
+    .description2{
+        margin-top: 40px !important;
+        margin-left: 175px !important;
+        margin-right: 25px !important;
+    }
+    .emilie{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .raoul{
+        flex-direction: column-reverse;
+        margin-bottom: 30px;
+    }
+    .ennys{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .basdepage2{
+        margin-top: 10px !important;
+    }
+}
+
+@media (min-width: 800px) and (max-width:900px){
+    .tete{
+        margin-left: 20%;
+    }
+    .navbar{
+        height: 100% !important;  
+        width: 60px !important; 
+        position: fixed !important;
+    }
+    .description{
+        margin-left: 210px !important;
+        margin-right: 32px !important
+    }
+    .description2{
+        margin-top: 40px !important;
+        margin-left: 190px !important;
+        margin-right: 20px !important;
+    }
+    .emilie{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .raoul{
+        flex-direction: column-reverse;
+        margin-bottom: 30px;
+    }
+    .ennys{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .basdepage2{
+        margin-top: 10px !important;
+    }
 }
