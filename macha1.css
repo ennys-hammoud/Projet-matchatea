@@ -275,6 +275,8 @@ main {
 
 }
 
+
+
 /* Style pour chaque service */
 .service {
     background-color: white;
@@ -394,3 +396,139 @@ main {
     font-family: "Onest", serif;
 }
 
+
+/* Styles pour les petits écrans (téléphones, largeur max : 768px) */
+@media (max-width: 768px) {
+    /* Header */
+    header {
+        height: auto;
+        text-align: center;
+    }
+
+    .tete {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .tete h1 {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .lo img {
+        width: 150px;
+        height: auto;
+    }
+
+    /* Navbar */
+    .navbar {
+        flex-direction: column;
+        width: 100%; /* Navbar horizontale */
+        height: auto;
+        position: static; /* Position normale */
+        writing-mode: horizontal-tb; /* Texte horizontal */
+        transform: none;
+        gap: 10px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .nav-links li {
+        padding: 10px 0;
+    }
+
+    /* Main Content */
+    main {
+        padding: 20px 10px;
+    }
+
+    /* Galerie d'images */
+    .galerie-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteneur-image {
+        width: 90%; /* Ajuste les images à la largeur de l'écran */
+    }
+
+    /* Section Fidélité */
+    .cartes-recompenses {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* CTA Section */
+    .cta-buttons {
+        flex-direction: column;
+    }
+
+    .cta-button {
+        width: 80%; /* Réduit la largeur des boutons */
+        margin-bottom: 10px;
+    }
+
+    /* Services Section */
+    .services-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Footer */
+    footer .basdepage2 {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    .gauche, .droite, .milieu {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .carré {
+        width: 90%; /* Ajuste la largeur */
+        padding: 30px;
+    }
+}
+
+/* Styles pour les écrans moyens (tablettes, largeur max : 1024px) */
+@media (max-width: 1024px) {
+    /* Header */
+    .tete {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar {
+        width: 80px; /* Réduit la largeur */
+    }
+
+    /* Galerie */
+    .conteneur-image {
+        width: 45%; /* Deux images par ligne */
+    }
+
+    /* Section Services */
+    .services-content {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .service {
+        width: 45%; /* Deux colonnes */
+    }
+
+    /* Footer */
+    .basdepage2 {
+        flex-direction: column;
+    }
+}
