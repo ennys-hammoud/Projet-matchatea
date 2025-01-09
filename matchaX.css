@@ -188,6 +188,44 @@ h6{
     font-family: "Funnel Sans", serif;
     font-size: 12px;
 }
+/*MEDIA QUERIES PAGE CONTACT*/
+@media (min-width: 410px) and (max-width: 1000px){
+    .tete{
+        padding: 0px;
+        margin-left: 25%;
+        margin-right: 0%;
+    }
+    .navbar{
+        height: 100% !important;  
+        width: 60px !important; 
+        position: fixed !important;
+    }
+    .description{
+        margin-top: 60px !important;
+        margin-left: 150px !important;
+        margin-right: 30px !important;
+    }
+    .description2{
+        margin-top: 40px !important;
+        margin-left: 130px !important;
+        margin-right: 20px !important;
+    }
+    .emilie{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .raoul{
+        flex-direction: column-reverse;
+        margin-bottom: 30px;
+    }
+    .ennys{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+}
+
+
+
 
 /*PAGE A PROPOS*/
 .description{
