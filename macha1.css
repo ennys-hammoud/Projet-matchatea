@@ -7,7 +7,7 @@
 .navbar{
     display: flex;
     justify-content: space-evenly;
-    height: 100%; /* La navbar occupe toute la hauteur */
+    height: 110%; /* La navbar occupe toute la hauteur */
     width: 100px; /* Largeur de la navbar */
     position: fixed; /* La navbar reste fixée sur le côté gauche */
     top: 0;
@@ -18,6 +18,8 @@
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     flex-direction: row;
+    gap:0px;
+    
     
 }
 .nav-links{
@@ -25,12 +27,14 @@
     justify-content: space-evenly;
     flex-direction: row;
     margin-left: 70px 0;
+    gap:0px;
     
     li {
         padding-right: 20px;
         padding-top: 50px;
         list-style: none;
         text-decoration: none;
+        gap:0px;
     }
 }
 
@@ -39,38 +43,6 @@ html, body {
     padding: 0;
     overflow-x: hidden; /* Empêche les débordements horizontaux */
     width: 100%; /* S'assure que la largeur occupe tout l'écran */
-}
-
-
-.navbar{
-    display: flex;
-    justify-content: space-evenly;
-    height: 100%; /* La navbar occupe toute la hauteur */
-    width: 100px; /* Largeur de la navbar */
-    position: fixed; /* La navbar reste fixée sur le côté gauche */
-    top: 0;
-    left: 0;
-    padding-top: 20px; /* Espacement en haut */
-    background-color: #CEE08F;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2); /* Ombre pour un effet stylé */
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-    flex-direction: row;
-    
-}
-.nav-links{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    margin-left: 70px 0;
-    
-    li {
-        padding-right: 20px;
-        padding-top: 50px;
-        list-style: none;
-        text-decoration: none;
-    }
-
 }
 .t{
     display: flex;
@@ -125,9 +97,9 @@ main {
 .galerie-images {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Espacement entre les images */
+   
     flex-wrap: wrap; /* Permet d'adapter les images sur plusieurs lignes sur petits écrans */
-    margin-left: 50px;
+    margin-left: 65px;
 }
 
 /* Style pour chaque conteneur d'image */
@@ -423,6 +395,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 .coordonnées{
     font-size: 15px;

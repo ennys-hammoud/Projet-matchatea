@@ -54,7 +54,7 @@
 .navbar{
     display: flex;
     justify-content: space-evenly;
-    height: 100%; /* La navbar occupe toute la hauteur */
+    height: 110%; /* La navbar occupe toute la hauteur */
     width: 100px; /* Largeur de la navbar */
     position: fixed; /* La navbar reste fixée sur le côté gauche */
     top: 0;
@@ -218,6 +218,9 @@ br{
     flex-direction: column;
     align-items: center;
 }
+.ok{
+display: none;
+}
 .carré{
     border: solid #CEE08F;
     background-color: #CEE08F;;
@@ -264,6 +267,7 @@ h6{
     font-size: 13px;
     font-family: "Onest", serif;
 }
+.basdepage{margin-left: 10%;}
 /*MEDIA QUERIES a propos*/
 @media (min-width: 410px) and (max-width: 1000px)
 {
@@ -292,7 +296,7 @@ h6{
         position: fixed !important;
         font-size: xx-large;
     }
-    .ok{display:none}
+    .ok{display:initial}
     
     .nav-links2{ margin-left: 40%;
         

@@ -38,7 +38,7 @@
 .navbar{
     display: flex;
     justify-content: space-evenly;
-    height: 100%; /* La navbar occupe toute la hauteur */
+    height: 110%; /* La navbar occupe toute la hauteur */
     width: 100px; /* Largeur de la navbar */
     position: fixed; /* La navbar reste fixée sur le côté gauche */
     top: 0;
@@ -74,9 +74,10 @@ main {
 
 /* Style pour le contenu principal */
 main {
-    padding: 40px;
+    padding: 60px;
     margin: 20px auto;
     max-width: 800px;
+    height: 120%;
     background-color: #F8F8F8;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -145,6 +146,7 @@ main ul li {
     display: flex;
     justify-content: center;
     margin-left: 250px;
+    margin-top: -10%;
 }
 .basdepage2{
     display: flex;
@@ -243,6 +245,7 @@ main ul li {
     }
     .page{
         margin-left: 20%;
+        
     }
     .navbar{
         height: 100% !important;  
@@ -253,13 +256,13 @@ main ul li {
     
     
     .nav-links2{ margin-left: 10%;
-        margin-top: 50%;
+        margin-top: -80%;
         
     }
     .carré { display: none;}
     .droite { 
         margin-left: -30%;
-        margin-top: 50%;
+        margin-top: -80%;
         
     }
     .basdepage2{

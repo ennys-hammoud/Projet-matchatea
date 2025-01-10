@@ -14,7 +14,7 @@
     padding: 30px;
     color: rgb(6, 129, 14);
     gap: 10%;
-    margin-left: -20%;
+    margin-left: 0%;
     
 }
 .page {
@@ -29,7 +29,8 @@ footer{
     margin-left: 10%;
 }
 .lo{
-    margin-top:-30px;
+    margin-top:-20px;
+    margin-left: -10%;
     
     
 }
@@ -48,7 +49,7 @@ footer{
 .navbar{
     display: flex;
     justify-content: space-evenly;
-    height: 100%; /* La navbar occupe toute la hauteur */
+    height: 110%; /* La navbar occupe toute la hauteur */
     width: 100px; /* Largeur de la navbar */
     position: fixed; /* La navbar reste fixée sur le côté gauche */
     top: 0;

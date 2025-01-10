@@ -54,7 +54,7 @@
 .navbar{
     display: flex;
     justify-content: space-evenly;
-    height: 100%; /* La navbar occupe toute la hauteur */
+    height: 110%; /* La navbar occupe toute la hauteur */
     width: 100px; /* Largeur de la navbar */
     position: fixed; /* La navbar reste fixée sur le côté gauche */
     top: 0;
@@ -98,8 +98,8 @@
 .pol {
     display: flex;
     flex-direction: row;
-    gap:10%;
-    margin-left: 12%;
+    gap:22%;
+    margin-left: 5%;
 }
 
 figure{
@@ -235,11 +235,12 @@ figure{
     align-items:end;
     font-size: 14px;
     font-family: "Onest", serif;
+    margin-left: 10%;
 }
 .navigation{
     text-align:right;
     font-size: 15px;
-    margin-left: 10%;
+    margin-left: 20%;
     font-family: "Onest", serif;
 }
 .li2{
@@ -256,6 +257,7 @@ figure{
     padding: 58px 140px 55px 140px;
     display: flex;
     flex-direction: column;
+    margin-left: -10%;
 }
 .images{
     width: 50vh;
@@ -274,11 +276,12 @@ figure{
 .petitcarré{
     border: solid rgb(255, 255, 255);
     margin-top: 25px;
-    padding: 5px 60px 5px 60px;
+    padding: 5px 80px 5px 80px;
 }
 .phrase2{
     font-size: 14px;
     font-family: "Onest", serif;
+    display: flex;
 }
 h6{
     font-size: small;
