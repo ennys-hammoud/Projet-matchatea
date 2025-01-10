@@ -31,7 +31,7 @@ header {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     flex-direction: row;
-    margin-left: 1%;
+    
     
 }
 .nav-links{
