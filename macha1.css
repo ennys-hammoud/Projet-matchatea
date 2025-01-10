@@ -37,6 +37,7 @@ html, body {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     flex-direction: row;
+    margin-left: 1%;
     
 }
 .nav-links{
@@ -81,6 +82,7 @@ main {
     width: 100%; 
 }
 
+
 /* Style de la galerie d'images */
 .galerie-images {
     display: flex;
@@ -94,6 +96,7 @@ main {
 .conteneur-image {
     text-align: center; /* Centre le texte sous l'image */
     width: 300px; /* Largeur fixe pour les conteneurs */
+    
 }
 
 /* Style pour les images */
@@ -103,10 +106,12 @@ main {
     border-radius: 10px; /* Coins arrondis pour un design élégant */
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Ajoute une ombre douce */
     transition: transform 0.3s ease; /* Animation fluide au survol */
+    
 }
 
 .conteneur-image img:hover {
     transform: scale(1.05); /* L'image s'agrandit légèrement au survol */
+    
 }
 
 /* Style pour le texte sous les images */
@@ -115,6 +120,7 @@ main {
     font-family: 'Dancing Script', cursive; /* Police décorative pour le texte */
     color: rgba(0, 0, 0, 0.8); /* Couleur noir légèrement atténué */
     font-size: 18px; /* Taille du texte */
+    
 }
 
 /* Section principale du système de fidélité */
