@@ -238,7 +238,7 @@ h6{
 }
 
 /*MEDIA QUERIES PAGE CONTACT*/
-@media (min-width: 600px) and (max-width: 700px){
+@media (min-width: 0px) and (max-width: 600px){
     .tete {
         padding: 0px !important;
         margin-left: 22% !important;
@@ -247,6 +247,12 @@ h6{
     .phrase{
         display: flex;
         justify-content: center;
+    }
+    .pageprincipal{
+        margin: 10% 9% 0% 35%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
     }
 }
 
@@ -271,6 +277,11 @@ h6{
     .phrase{
         display: flex;
         justify-content: center;
+    }
+    .contact {
+        display: flex;
+        flex-direction: column;
+        padding-right: 50px;
     }
 }
 
@@ -391,11 +402,11 @@ h6{
 }
 
 /*MEDIA QUERIES PAGE A PROPOS*/
-@media (min-width: 400px) and (max-width: 600px){
+@media (min-width: 0px) and (max-width: 600px){
     .tete{
-        padding: 0px;
-        margin-left: 25%;
-        margin-right: 0%;
+        padding: 0px !important;
+        margin-left: 25% !important;
+        margin-right: 0% !important;
     }
     .navbar{
         height: 100% !important;  
@@ -429,9 +440,9 @@ h6{
     }
 }
 
-@media (min-width: 600px) and (max-width: 800px){
+@media (min-width: 600px) and (max-width: 700px){
     .tete{
-        margin-left: 22%;
+        margin-left: 22% !important;
     }
     .navbar{
         height: 100% !important;  
