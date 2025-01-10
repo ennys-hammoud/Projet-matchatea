@@ -207,3 +207,90 @@ h6{
     font-size: 13px;
     font-family: "Onest", serif;
 }
+@media (min-width: 0px) and (max-width: 1000px){
+    .tete {
+        padding: 0px !important;
+        margin-left: 10% !important;
+        margin-right: 0% !important;
+        gap: 4%;
+    }
+    .t{
+        margin-left: -10%;
+    }
+    .phrase{
+        display: flex;
+        justify-content: center;
+    }
+    .pageprincipal{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .milieu{display: none;}
+    .barre{
+        display:none;
+    }
+    .contact{
+        margin-left: -20%;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 800px){
+    .tete {
+        padding: 0px !important;
+        margin-left: 20% !important;
+        margin-right: 0% !important;
+    }
+    .phrase{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 900px){
+    .tete {
+        padding: 0px !important;
+        margin-left: 18% !important;
+        margin-right: 0% !important;
+    }
+    .phrase{
+        display: flex;
+        justify-content: center;
+    }
+    .contact {
+        display: flex;
+        flex-direction: column;
+        padding-right: 50px;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1000px){
+    .tete {
+        padding: 0px !important;
+        margin-left: 16% !important;
+        margin-right: 0% !important;
+    }
+    .phrase{
+        display: flex;
+        justify-content: center;
+    }
+    .navbar{
+        height: 100% !important;  
+        width: 60px !important; 
+        position: fixed !important;
+        font-size: xx-large;
+    }
+    
+    
+    .nav-links2{ margin-left: 40%;
+        
+    }
+    .carré { display: none;}
+    
+    .droite { 
+        margin-left: -30%;
+    }
+    .basdepage2{
+        display: flex;
+    }
+}

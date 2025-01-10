@@ -264,3 +264,49 @@ h6{
     font-size: 13px;
     font-family: "Onest", serif;
 }
+/*MEDIA QUERIES a propos*/
+@media (min-width: 410px) and (max-width: 1000px)
+{
+    .tete{
+        padding: 20px;
+        margin-left: 0%;
+    }
+    .t{
+        margin-left: -10%;
+    }
+    .lo{
+        margin-left: 5%;
+    }
+    .shop{
+        margin-left: 0%;
+    }
+    .ut{
+        margin-left: 0%;
+    }
+    .page{
+        margin-left: -10%;
+    }
+    .navbar{
+        height: 100% !important;  
+        width: 60px !important; 
+        position: fixed !important;
+        font-size: xx-large;
+    }
+    .ok{display:none}
+    
+    .nav-links2{ margin-left: 40%;
+        
+    }
+    .carré { display: none;}
+    .droite { 
+        margin-left: -30%;
+    }
+    .basdepage2{
+        display: flex;
+        margin-left: 10%;
+    }
+    figure{
+        display:none
+    }
+    
+}

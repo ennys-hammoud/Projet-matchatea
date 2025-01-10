@@ -69,7 +69,7 @@
 main {
     padding: 50px 20px;
     background-color: white; /* Couleur douce pour contraster avec le header */
-    height: 150vh;
+    height: 200vh;
 }
 
 /* Style pour le contenu principal */
@@ -219,4 +219,53 @@ main ul li {
     font-size: 13px;
     font-family: "Onest", serif;
 }
-
+/*MEDIA QUERIES a propos*/
+@media (min-width: 410px) and (max-width: 1000px)
+{
+    .tete{
+        padding: 20px;
+        margin-left: 5%;
+        gap: 10%;
+        display: flex;
+        
+    }
+    h1 {
+        margin-left: -180%;
+    }
+    .lo{
+        margin-left: 5%;
+    }
+    .shop{
+        margin-left: -40%;
+    }
+    .ut{
+        margin-left: -5%;
+    }
+    .page{
+        margin-left: 20%;
+    }
+    .navbar{
+        height: 100% !important;  
+        width: 60px !important; 
+        position: fixed !important;
+        font-size: xx-large;
+    }
+    
+    
+    .nav-links2{ margin-left: 10%;
+        margin-top: 50%;
+        
+    }
+    .carré { display: none;}
+    .droite { 
+        margin-left: -30%;
+        margin-top: 50%;
+        
+    }
+    .basdepage2{
+        display: flex;
+        margin-left: -20%;
+        
+    }
+    
+}
