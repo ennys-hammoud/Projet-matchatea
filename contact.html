@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=New+Rocker&family=Noto+Sans+Georgian:wght@100..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    
+<!-- En-tête de la page -->
+<header>
+    <div class="tete">
+        <section class="lo"><a href="index.html"><img src="images/logo-removebg-preview.png" height="100" width="100"></a></section>
+        <section class="t"><h1>matcha&co</h1></section>
+        <section class="shop"><a href="commande-1.html"><img src="images/ajouter-un-panier.png"  height="50" width="50"></a></section>
+        <section class="ut"><a href="client.html"><img src="images/utilisateur.png"  height="50" width="50"></a></section>
+    </div>
+</header>
+
+<!--liens-->
+<section>
+<div class="navbar">
+    <div class="nav-links">
+        <li><a href="histoire.html">HISTOIRE</a></li>
+        <li><a href="apropos.html">PROPOS</a></li>
+        <li><a href="vente.html">VENTE</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+    </div>
+</div>
+</section>
+
+    <!--page-->
+    <div class="pageprincipal">
+        <p class="phrase">
+        Si vous voulez en savoir plus sur <br> nos produits, inscrivez-vous ou écrivez-nous <br> nous vous répondrons dès que possible.
+        </p>
+
+        <div class="barre">
+        .
+        </div>
+
+        <div class="contact">
+            <form class="contact1" action="mailto:emilie.ponce@laplateforme.io" method="post" enctype="text/plain"></form>
+        
+            <label id="civilité0" for="civilité">
+            Civilité :</label>
+            <select class="civilité" name="civilité">
+                <option class="M-F" value="M">Monsieur</option>
+                <option class="M-F" value="Mme">Madame</option>
+            </select><br><br>
+
+            <label class="mail" for="name">
+            Nom Prénom :
+            </label><br>
+            <input class="input" type="text" id="name" name="name" required><br><br>
+
+            <label class="mail" for="email">
+            Email :
+            </label><br>
+            <input class="input" type="email" id="email" name="email" required><br><br>
+
+            <label class="mail" for="message">
+            Message :
+            </label><br>
+        
+            <textarea id="message" name="message" required></textarea><br><br>
+        
+            <input class="send" type="submit" value="Envoyer">
+        </div>
+    </div>
+
+    <!--footer-->
+    <section class="basdepage">
+        <div class="basdepage2">
+            <nav class="gauche">
+                <ul class="nav-links2">
+                    <h3 class="navigation">NAVIGATION</h3><br>
+                    <li class="li2"><a href=""></a>Accueil</li>
+                    <li class="li2"><a href="#"></a>Histoire</li>
+                    <li class="li2"><a href="#"></a>A propos</li>
+                    <li class="li2"><a href="#"></a>Vente</li>
+                    <li class="li2"><a href="#"></a>Contact</li>
+                </ul>
+        </nav>
+
+        <div class="milieu">
+            <div class="carré">
+                <h4 class="titre">
+                    Merci pour votre visite ! 
+                </h4>
+                <div class="petitcarré">
+                    <h6 class="phrase2">
+                        <a class="regarder" href="#">
+                            Continuer de regarder
+                        </a>
+                    </h6>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="droite">
+            <h3 class="coordonnées">
+                Coordonnées<br><br>
+            </h3>
+            <p class="coordonnées2">
+                8 rue d'Hozier<br>13002<br>Marseille
+            </p>
+            </div>
+        </div>
+    </section>
+</section>
+</body>

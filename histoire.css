@@ -5,22 +5,40 @@
     font-family: century;
 }
 
-header {
-    background-color: white;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    height: 20vh;
+.tete {
+    display: flex;
+    flex-direction:inherit;
+    justify-content: space-evenly;
+    background-color:rgba(255, 255, 255, 0.996);
+    padding: 30px;
+    color: rgb(6, 129, 14);
+    
+}
+.t{
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
 }
 
 .lo{
     margin-top:-30px;
+    margin-left: 5%;
+    
 }
-
+.ut{
+    margin-top:-10px;
+    display: flex;
+    justify-content: end;
+    margin-left: 10%;
+}
+.shop{
+    margin-top:-10px;
+    margin-left: 10%;
+}
 .navbar{
     display: flex;
     justify-content: space-evenly;
-    height: 100%; /* La navbar occupe toute la hauteur */
+    height: 110%; /* La navbar occupe toute la hauteur */
     width: 100px; /* Largeur de la navbar */
     position: fixed; /* La navbar reste fixée sur le côté gauche */
     top: 0;
@@ -31,7 +49,6 @@ header {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     flex-direction: row;
-    margin-left: 1%;
     
 }
 .nav-links{
@@ -49,28 +66,18 @@ header {
 
 }
 
-.tete {
-    display: flex;
-    flex-direction:inherit;
-    justify-content: center;
-    background-color:rgba(255, 255, 255, 0.996);
-    padding: 30px;
-    color: rgb(6, 129, 14);
-
-}
-
-
 main {
     padding: 50px 20px;
     background-color: white; /* Couleur douce pour contraster avec le header */
-    height: 150vh;
+    height: 200vh;
 }
 
 /* Style pour le contenu principal */
 main {
-    padding: 40px;
+    padding: 60px;
     margin: 20px auto;
     max-width: 800px;
+    height: 120%;
     background-color: #F8F8F8;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -139,6 +146,7 @@ main ul li {
     display: flex;
     justify-content: center;
     margin-left: 250px;
+    margin-top: -10%;
 }
 .basdepage2{
     display: flex;
@@ -213,4 +221,54 @@ main ul li {
     font-size: 13px;
     font-family: "Onest", serif;
 }
-
+/*MEDIA QUERIES a propos*/
+@media (min-width: 410px) and (max-width: 1000px)
+{
+    .tete{
+        padding: 20px;
+        margin-left: 5%;
+        gap: 10%;
+        display: flex;
+        
+    }
+    h1 {
+        margin-left: -180%;
+    }
+    .lo{
+        margin-left: 5%;
+    }
+    .shop{
+        margin-left: -40%;
+    }
+    .ut{
+        margin-left: -5%;
+    }
+    .page{
+        margin-left: 20%;
+        
+    }
+    .navbar{
+        height: 100% !important;  
+        width: 60px !important; 
+        position: fixed !important;
+        font-size: xx-large;
+    }
+    
+    
+    .nav-links2{ margin-left: 10%;
+        margin-top: -80%;
+        
+    }
+    .carré { display: none;}
+    .droite { 
+        margin-left: -30%;
+        margin-top: -80%;
+        
+    }
+    .basdepage2{
+        display: flex;
+        margin-left: -20%;
+        
+    }
+    
+}
